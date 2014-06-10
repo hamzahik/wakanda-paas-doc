@@ -1,3 +1,5 @@
+.. role:: variable
+
 ===============
 Getting Started
 ===============
@@ -20,15 +22,15 @@ Using the command line
 
 If your application address is ::
 
- http://[my-application-name].us.wakapps.com
+ http://:variable:`[my-application-name]`.us.wakapps.com
 
 your application's remote repository will be ::
 
- http://git.[my-application-name].us.wakapps.com
+ http://git.:variable:`[my-application-name]`.us.wakapps.com
 
 Push your application to the remote repository using the following command ::
 
- $ git push http://git.[my-application-name].us.wakapps.com master
+ $ git push http://git.:variable:`[my-application-name]`.us.wakapps.com master
  
 **************************************
 What port should my projects listen to
