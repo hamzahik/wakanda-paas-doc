@@ -21,7 +21,7 @@ Using the Studio
 Using the command line
 ======================
 
-If your application address is ::
+If your application address is
 
  :bash:`http://:variable:`[my-application-name]`.us.wakapps.com`
 
