@@ -12,13 +12,16 @@ This can be done using the Studio's PaaS Extension, GIT Command Line or any IDE 
 Using the Studio
 ================
 
-* Video example
+.. raw:: html
+
+ <iframe width="560" height="315" src="//www.youtube.com/embed/Pg7FlJdx64o" frameborder="0" allowfullscreen></iframe>
+
 * How to install the paas extension
 
 Using the command line
 ======================
 
-If your application address is ::
+If your application's address is ::
 
  http://[my-application-name].us.wakapps.com
 
