@@ -1,6 +1,35 @@
 ===============
 Getting Started
 ===============
+*****************************
+Create your first application
+*****************************
+
+Once you are connected to your dashboard, click on the "create your first app" link to open the application creation wizard.
+
+.. image:: images/noapps.png
+
+Start by choosing an application type from the suggested offers, in our case we will be creating a free application. To do so click on the "Try it now" button.
+
+.. image:: images/try_it_now.png
+
+By default, your application will be created in the US region, you can change that by choosing an application from the list.
+
+.. image:: images/region.png
+
+Choose a valid application name
+
+.. image:: images/domain.png
+
+Optionnaly, you can add subdomains and custom domains to your new application configuration.
+
+.. image:: images/subdomains.png
+
+.. image:: images/custom_domains.png
+
+To create your application click on the "Finish" button.
+
+.. image:: images/finish.png
 
 *************************************
 How to update my deployed application
