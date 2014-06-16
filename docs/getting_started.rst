@@ -13,7 +13,7 @@ Start by choosing an application type from the suggested offers, in our case we 
 
 .. image:: images/try_it_now.png
 
-By default, your application will be created in the US region, you can change that by choosing an application from the list.
+By default, your application will be created in the US region, you can change that by choosing a different region from the list.
 
 .. image:: images/region.png
 
