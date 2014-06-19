@@ -45,7 +45,7 @@ Using the Studio
 
 .. raw:: html
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe>
 
 
 
