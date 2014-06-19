@@ -41,11 +41,13 @@ This can be done using the Studio's PaaS Extension, GIT Command Line or any IDE 
 Using the Studio
 ================
 
+
+
 .. raw:: html
 
- <iframe width="560" height="315" src="//www.youtube.com/embed/Pg7FlJdx64o" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe>
 
-* How to install the paas extension
+
 
 Using the command line
 ======================
