@@ -21,7 +21,7 @@ Choose a valid application name
 
 .. image:: images/domain.png
 
-Optionnaly, you can add subdomains and custom domains to your new application configuration.
+Optionally, you can add subdomains and custom domains to your new application configuration.
 
 .. image:: images/subdomains.png
 
