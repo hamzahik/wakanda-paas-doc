@@ -11,7 +11,7 @@ The following video demonstrates how to create an application from the dashboard
 You can read the rest of this guide for a more detailed explanation.
 
 *****************************
-Create your first application
+Creating my first application
 *****************************
 
 Once you are connected to your dashboard, click on the "create your first app" link to open the application creation wizard.
