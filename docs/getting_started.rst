@@ -2,7 +2,7 @@
 Getting Started
 ===============
 
-The following video demonstrates how to create an application from the dashboard and then how to delpoy and update your application from the studio.
+The following video demonstrates how to create an application from the dashboard and how to delpoy and update it using the studio.
 
 .. raw:: html
 
