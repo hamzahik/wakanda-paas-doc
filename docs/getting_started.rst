@@ -6,7 +6,7 @@ The following video demonstrates how to create an application from the dashboard
 
 .. raw:: html
 
- <iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe><br>
+ <iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe><br><br>
 
 You can read the rest of this guide for a more detailed explanation.
 
@@ -50,13 +50,9 @@ This can be done using the Studio's PaaS Extension, GIT Command Line or any IDE 
 Using the Studio
 ================
 
-
-
 .. raw:: html
 
- <br><iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe>
-
-
+ <iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe><br>
 
 Using the command line
 ======================
