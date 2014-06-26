@@ -52,7 +52,7 @@ Application remote repository
 
 You can get your application's remote repository URL by clicking the "copy repository" button 
 
-.. image:: images/git_copy_repo
+.. image:: images/git_copy_repo.png
 
 Using the Studio
 ================
