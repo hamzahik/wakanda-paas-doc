@@ -8,6 +8,7 @@ The following video demonstrates how to create an application from the dashboard
 
  <iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe>
 
+
 You can read the rest of this guide for a more detailed explanation.
 
 *****************************
