@@ -66,11 +66,11 @@ Using the command line
 
 Push your application to the remote repository using the following command ::
 
- $ git push http://git.[my-application-name].us.wakapps.com master
+ $ git push http://git.[my-application-name].us.wak-apps.com master
  
 If your local repository is using a different branch than "master" ::
 
- $ git push http://git.[my-application-name].us.wakapps.com [local-branch-name]:master
+ $ git push http://git.[my-application-name].us.wak-apps.com [local-branch-name]:master
 
  
 **************************************
