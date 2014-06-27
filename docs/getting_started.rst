@@ -57,9 +57,21 @@ You can get your application's remote repository URL by clicking the ``copy repo
 Using the Studio
 ================
 
-.. raw:: html
+Once you've opened your solution in Wakanda Studio, click on the PaaS extension button and select the ``update`` menu
 
-    <iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe><br><br>
+.. image:: images/studio_update_menu.png
+
+If you have not initialized a local Git repository for your solution yet, you'll be prompted to create one, click on the ``yes`` button
+
+.. image:: images/studio_create_repo.png
+
+Fill in your PaaS login information and your `application remote repository`_ URL and click on ``Publish``
+
+.. image:: images/studio_create_repo.png
+
+Once the operation is concluded you will receive details about the update if the operation has succeeded or an error message if any errors have occured
+
+.. image:: images/studio_published_dialog.png
 
 Using the command line
 ======================
