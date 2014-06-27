@@ -44,7 +44,7 @@ To create your application click on the ``Finish`` button.
 Updating my application
 ***********************
 
-Publishing your code the first time is the same as updating an already deployed application all you need to do is push your new code to your application's remote repository.
+Publishing your code the first time is the same as updating an already deployed application, all you need to do is push your new code to your application's remote repository.
 This can be done using the Studio's PaaS Extension, GIT Command Line or any IDE supporting GIT Smart HTTP.
 
 Application remote repository
