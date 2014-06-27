@@ -14,11 +14,11 @@ You can read the rest of this guide for a more detailed explanation.
 Creating my first application
 *****************************
 
-Once you are connected to your dashboard, click on the "create your first app" link to open the application creation wizard.
+Once you are connected to your dashboard, click on the ``create your first app`` link to open the application creation wizard.
 
 .. image:: images/noapps.png
 
-Start by choosing an application type from the suggested offers, in our case we will be creating a free application. To do so click on the "Try it now" button.
+Start by choosing an application type from the suggested offers, in our case we will be creating a free application. To do so click on the ``Try it now`` button.
 
 .. image:: images/try_it_now.png
 
@@ -36,7 +36,7 @@ Optionally, you can add subdomains and custom domains to your application's conf
 
 .. image:: images/custom_domains.png
 
-To create your application click on the "Finish" button.
+To create your application click on the ``Finish`` button.
 
 .. image:: images/finish.png
 
@@ -50,7 +50,7 @@ This can be done using the Studio's PaaS Extension, GIT Command Line or any IDE 
 Application remote repository
 =============================
 
-You can get your application's remote repository URL by clicking the "copy repository" button 
+You can get your application's remote repository URL by clicking the ``copy repository`` button 
 
 .. image:: images/git_copy_repo.png
 
@@ -70,7 +70,7 @@ Push your application to the remote repository using the following command ::
 
 .. note::
 
-    If your local repository is using a different branch than "master" ::
+    If your local repository is using branch name other than ``master`` ::
 
     $ git push http://git.[my-application-name].us.wak-apps.com [local-branch-name]:master
 
