@@ -40,9 +40,9 @@ To create your application click on the ``Finish`` button.
 
 .. image:: images/finish.png
 
-*************************************
-How to update my deployed application
-*************************************
+********************************
+Updating my deployed application
+********************************
 
 To update your deployed application all you need to do is push your new code to your application's remote repository.
 This can be done using the Studio's PaaS Extension, GIT Command Line or any IDE supporting GIT Smart HTTP.
@@ -85,12 +85,3 @@ Push your application to the remote repository using the following command ::
     If your local repository is using a branch name other than ``master`` ::
 
     $ git push http://git.[my-application-name].us.wak-apps.com [local-branch-name]:master
-
- 
-**************************************
-What port should my projects listen on
-**************************************
-
-All the projects of your application should listen on the port 8081.
-This means that if you have a multi project application, each project should have a different host, this can be done by adding sub-domains or custom domains to your application.
-
