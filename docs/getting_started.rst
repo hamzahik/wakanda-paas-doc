@@ -69,7 +69,7 @@ Fill in your PaaS login information and your `application remote repository`_ UR
 
 .. image:: images/studio_publish_dialog.png
 
-Once the operation is concluded you will receive details about the update if the operation has succeeded or an error message if any errors have occured
+Once the operation is conducted successfully you will receive details about the update, otherwise you will receive a message explaining the origin of the error
 
 .. image:: images/studio_published_dialog.png
 
