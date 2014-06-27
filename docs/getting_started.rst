@@ -70,7 +70,7 @@ Push your application to the remote repository using the following command ::
 
 .. note::
 
-    If your local repository is using branch name other than ``master`` ::
+    If your local repository is using a branch name other than ``master`` ::
 
     $ git push http://git.[my-application-name].us.wak-apps.com [local-branch-name]:master
 
