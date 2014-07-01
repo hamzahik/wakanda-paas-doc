@@ -8,9 +8,9 @@ The following video demonstrates how to create an application from the dashboard
 
  <iframe width="420" height="315" src="//www.youtube.com/embed/5c2BeD-S958" frameborder="0" allowfullscreen></iframe><br><br>
 
-*****************************
+*******************************
 Creating your first application
-*****************************
+*******************************
 
 Once you are connected to your dashboard, click on the ``create your first app`` link to open the application creation wizard.
 
@@ -38,9 +38,9 @@ To create your application, click on the ``Finish`` button.
 
 .. image:: images/finish.png
 
-***********************
-Updating my application
-***********************
+*************************
+Updating your application
+*************************
 
 Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your new code to your application's remote repository, which can be done using Wakanda Studio's PaaS Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
 
@@ -52,7 +52,7 @@ You can get your application's remote repository URL by clicking the ``copy repo
 .. image:: images/git_copy_repo.png
 
 Using Wakanda Studio
-================
+====================
 
 Once you have opened your solution in Wakanda Studio, click on the PaaS extension button in the toolbar and select the ``update`` menu item.
 
