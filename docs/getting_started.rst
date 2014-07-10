@@ -38,6 +38,16 @@ To create your application, click on the ``Finish`` button.
 
 .. image:: images/finish.png
 
+**********************************************
+Developping your application on Wakanda Studio 
+**********************************************
+
+First you need to download_ Wakanda : http://www.wakanda.org/downloads
+
+
+
+
+
 *************************
 Updating your application
 *************************
@@ -82,3 +92,5 @@ Push your application to the remote repository using the following command ::
     If your local repository is using a branch name other than ``master``, you must use the following command to push your application to the remote repository ::
 
     $ git push http://git.[my-application-name].us.wak-apps.com [local-branch-name]:master
+    
+.. _download: http://www.wakanda.org/downloads
