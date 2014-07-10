@@ -44,12 +44,13 @@ Developping your application on Wakanda Studio
 
 First you need to download_ Wakanda : http://www.wakanda.org/downloads
 
+To install wakanda follow the steps: installation_
 
-
+Now you can develop your first wakanda application, click here_ for more details
 
 
 *************************
-Updating your application
+Publishing & Updating your application
 *************************
 
 Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your new code to your application's remote repository, which can be done using Wakanda Studio's PaaS Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
@@ -94,3 +95,5 @@ Push your application to the remote repository using the following command ::
     $ git push http://git.[my-application-name].us.wak-apps.com [local-branch-name]:master
     
 .. _download: http://www.wakanda.org/downloads
+.. _installation: http://doc.wakanda.org/home2.fr.html#/Installing-Wakanda/Installing-Wakanda.100-689089.en.html
+.. _here: http://doc.wakanda.org/home2.fr.html#/Quick-Start/Quick-Start.100-695763.en.html
