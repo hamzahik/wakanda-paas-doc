@@ -6,7 +6,7 @@ The following video demonstrates how to create an application from the dashboard
 
 .. raw:: html
 
- <iframe width="420" height="315" src="//www.youtube.com/embed/aWpMS_QoHnI" frameborder="0" allowfullscreen></iframe><br><br>
+ <iframe width="420" height="315" src="//www.youtube.com/embed/xxvhD9SuiIU" frameborder="0" allowfullscreen></iframe><br><br>
 
 *******************************
 Creating your first application
