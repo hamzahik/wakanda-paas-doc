@@ -53,7 +53,7 @@ Now you can develop your first wakanda application, click here_ for more details
 Publishing & Updating your application
 *************************
 
-Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your new code to your application's remote repository, which can be done using Wakanda Studio's PaaS Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
+Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your new code to your application's remote repository, which can be done using Wakanda Studio's Cloud Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
 
 Application remote repository
 =============================
