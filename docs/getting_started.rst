@@ -39,7 +39,7 @@ To create your application, click on the ``Finish`` button.
 .. image:: images/finish.png
 
 **********************************************
-Developing your application on Wakanda Studio 
+Develop your application with Wakanda Studio 
 **********************************************
 
 First you need to download_ Wakanda : http://www.wakanda.org/downloads
