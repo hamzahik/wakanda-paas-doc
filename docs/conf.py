@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'wakanda-paas'
+project = u'Wakanda Cloud'
 copyright = u'2014, Wakanda'
 
 # The version info for the project you're documenting, acts as replacement for
