@@ -23,6 +23,9 @@ Start by choosing an application type from the suggestions. In our example, we w
 By default, your application will be created in the US region. If you prefer a different region, select it from the list.
 
 .. image:: images/region.png
+.. note::
+
+    Only the US regio is available during the beta program
 
 Choose a valid application name:
 
@@ -65,7 +68,7 @@ You can get your application's remote repository URL by clicking the ``copy repo
 Using Wakanda Studio
 ====================
 
-Once you have opened your solution in Wakanda Studio, click on the PaaS extension button in the toolbar and select the ``update`` menu item.
+Once you have opened your solution in Wakanda Studio, click on the Cloud extension button in the toolbar and select the ``update`` menu item.
 
 .. image:: images/studio_update_menu.png
 
@@ -73,7 +76,7 @@ If you have not initialized a local Git repository for your solution, you will b
 
 .. image:: images/studio_create_repo.png
 
-Fill in your PaaS login information and your `application remote repository`_ URL and click on ``Publish``.
+Fill in your Wakanda Cloud login information and your `application remote repository`_ URL and click on ``Publish``.
 
 .. image:: images/studio_publish_dialog.png
 
