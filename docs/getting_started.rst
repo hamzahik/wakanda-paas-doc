@@ -25,7 +25,7 @@ By default, your application will be created in the US region. If you prefer a d
 .. image:: images/region.png
 .. note::
 
-    Only the US regio is available during the beta program
+    Only the US region is available during the beta program
 
 Choose a valid application name:
 
