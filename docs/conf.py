@@ -95,7 +95,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 html_logo = 'logo.png'
 html_style = 'theme.css'
 
-html_theme = "sphinx_rtd_theme"
+html_theme = "sphinx_rtd_theme_wakanda"
 html_theme_path = ["_themes", ]
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
@@ -125,7 +125,7 @@ html_title = 'Wakanda PaaS Documentation'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = 'docs/favicon.ico'
+html_favicon = 'favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
