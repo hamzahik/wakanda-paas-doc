@@ -89,14 +89,12 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output ---------------------------------------------------
 
-# on_rtd is whether we are on readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-html_paaslogo = 'logo.png'
 html_style = 'theme.css'
-
 html_theme = "sphinx_rtd_theme_wakanda"
 html_theme_path = ["_themes", ]
+html_context = {
+	'paaslogo' : 'logo.png'
+}
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 # The theme to use for HTML and HTML Help pages.  See the documentation for
