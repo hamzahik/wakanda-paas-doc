@@ -41,20 +41,20 @@ To create your application, click on the ``Finish`` button.
 
 .. image:: images/finish.png
 
-**********************************************
-Developping your application with Wakanda Studio 
-**********************************************
+***********************************************
+Developing your application with Wakanda Studio
+***********************************************
 
 First you need to download_ Wakanda : http://www.wakanda.org/downloads
 
-To install wakanda follow the steps: installation_
+To install Wakanda follow the steps: installation_
 
-Now you can develop your first wakanda application, click here_ for more details
+Now you can develop your first Wakanda application, click here_ for more details
 
 
-*************************
+**************************************
 Publishing & Updating your application
-*************************
+**************************************
 
 Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your new code to your application's remote repository, which can be done using Wakanda Studio's Cloud Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
 
