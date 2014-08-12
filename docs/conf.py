@@ -92,7 +92,7 @@ pygments_style = 'sphinx'
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-html_logo = 'logo.png'
+html_paaslogo = 'logo.png'
 html_style = 'theme.css'
 
 html_theme = "sphinx_rtd_theme_wakanda"
