@@ -95,9 +95,8 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 html_logo = 'logo.png'
 html_style = 'theme.css'
 
-if not on_rtd:  # only import and set the theme if we're building docs locally
-	html_theme = "sphinx_rtd_theme"
-	html_theme_path = ["_themes", ]
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 # The theme to use for HTML and HTML Help pages.  See the documentation for
