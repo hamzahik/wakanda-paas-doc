@@ -6,13 +6,13 @@ The following video demonstrates how to create an application from the dashboard
 
 .. raw:: html
 
- <div id="player"></div><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"dBU8aV3XK78",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
+ <div id="player"></div><br><br><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"dBU8aV3XK78",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
 
 *******************************
 Creating your first application
 *******************************
 
-Once you are connected to your dashboard, click on the ``create your first app`` link to open the application creation wizard.
+Once you are connected to your dashboard, click on the ``New Application`` button to open the application creation wizard.
 
 .. image:: images/noapps.png
 
