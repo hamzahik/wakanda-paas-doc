@@ -6,7 +6,7 @@ The following video demonstrates how to create an application from the dashboard
 
 .. raw:: html
 
- <div id="player"></div><br><br><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"dBU8aV3XK78",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
+ <div id="player" class="align-center"></div><br><br><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"dBU8aV3XK78",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
 
 *******************************
 Creating your first application
@@ -15,14 +15,17 @@ Creating your first application
 Once you are connected to your dashboard, click on the ``New Application`` button to open the application creation wizard.
 
 .. image:: images/noapps.png
-
+	:align: center
+	
 Start by choosing an application type from the suggestions. In our example, we will be creating a free application. To proceed, click on the ``Try it now`` button.
 
 .. image:: images/try_it_now.png
-
+	:align: center
+	
 By default, your application will be created in the US region. If you prefer a different region, select it from the list.
 
 .. image:: images/region.png
+	:align: center
 .. note::
 
     Only the US region is available during the beta program
@@ -30,17 +33,21 @@ By default, your application will be created in the US region. If you prefer a d
 Choose a valid application name:
 
 .. image:: images/domain.png
+	:align: center
 
 Optionally, you can add subdomains and custom domains to your application's configuration.
 
 .. image:: images/subdomains.png
+	:align: center
 
 .. image:: images/custom_domains.png
+	:align: center
 
 To create your application, click on the ``Finish`` button.
 
 .. image:: images/finish.png
-
+	:align: center
+	
 ***********************************************
 Developing your application with Wakanda Studio
 ***********************************************
@@ -64,6 +71,7 @@ Application remote repository
 You can get your application's remote repository URL by clicking the ``copy repository`` button. 
 
 .. image:: images/git_copy_repo.png
+	:align: center
 
 Using Wakanda Studio
 ====================
@@ -71,17 +79,20 @@ Using Wakanda Studio
 Once you have opened your solution in Wakanda Studio, click on the Cloud extension button in the toolbar and select the ``Publish`` menu item.
 
 .. image:: images/studio_update_menu.png
+	:align: center
 
 If you have not initialized a local Git repository for your solution, you will be prompted to create one. To do so, click on the ``Yes`` button.
 
 .. image:: images/studio_create_repo.png
+	:align: center
 
 Fill in your Wakanda Cloud login information and click on ``Login``. If you want the studio to remember your credentials check the ``Remember me`` option.
 
 .. image:: images/studio_login_dialog.png
+	:align: center
 .. note::
 
-    If you choose check the ``Remember me`` option your credentials will be saved as clear text in the cloud extension preferences.
+    If you check the ``Remember me`` option your credentials will be saved as clear text in the cloud extension preferences.
 	
 
 
