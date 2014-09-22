@@ -136,9 +136,11 @@ You can create a new group by clicking on the ``add group`` button
 	:align: center
 
 A new pop up appears inviting you to type in:
+
 -	The name of the group 
 -	The collaborators emails in the add users section 
 -	The permissions for this group of users 
+
 Then you click on the save changes button and your newly created group will be added to the groups list
 
 .. image:: images/15_add_group_window.png
