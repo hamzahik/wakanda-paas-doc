@@ -52,7 +52,7 @@ If you want more detailed logs you can click on the ``application logs`` button 
 Monitoring view
 ***************
 
-The monitoring view allows you to monitor the activity of your application, by charting usage statistics of memory, storage and network.
+The monitoring view allows you to monitor the activity of your application, by charting usage statistics of memory, storage and network I/O.
 
 Graph's time-frame
 ==================
@@ -70,7 +70,7 @@ and a starting point
 Add metrics
 ===========
 
-You can add new metrics to a graph simply by clicking on the add button ``+`` , selecting the metric you want from the list and then click on add to graph button 
+You can add new metrics to a graph simply by clicking on the add button ``+`` , selecting the metric you want from the list and then clicking on ``add to graph`` button 
 
 .. image:: images/9_add_metrics.png
 	:align: center
@@ -136,9 +136,9 @@ You can create a new group by clicking on the ``add group`` button
 	:align: center
 
 A new pop up appears inviting you to type in:
-•	The name of the group 
-•	The collaborators emails in the add users section 
-•	The permissions for this group of users 
+-	The name of the group 
+-	The collaborators emails in the add users section 
+-	The permissions for this group of users 
 Then you click on the save changes button and your newly created group will be added to the groups list
 
 .. image:: images/15_add_group_window.png
@@ -146,7 +146,8 @@ Then you click on the save changes button and your newly created group will be a
 
 .. note::
 
-	The owner group is automatically created with your application and contains your email only; no other user can be added to it.
+    The owner group is automatically created with your application and contains your email only; no other user can be added to it.
+
 
 Manage users
 ============
@@ -162,7 +163,7 @@ and then type in the user’s email and click on invite or select an existing us
 .. image:: images/18_add_user_window.png
 	:align: center
 
-You can also delete a user from a group by clicking on the x button in the user panel or in the manage users view by deselecting it.
+You can also delete a user from a group by clicking on the ``X`` button in the user panel or in the manage users view by deselecting it.
 
 Configure group permissions
 ===========================
