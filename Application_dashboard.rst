@@ -173,7 +173,7 @@ Configure group permissions
 You can configure group permissions by clicking on the ``lock`` button.
 
 .. image:: images/19_permission_button.png
-	:align: center
+
 
 A predefined list of permissions appears where you can select/deselect the permissions you want to attribute to the group and then save the changes.
 
