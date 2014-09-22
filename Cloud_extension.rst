@@ -19,12 +19,12 @@ First publish
 
 The few steps bellow show you how to deploy your application to the cloud for the first time:
 
-1-	Open your local application in Wakanda Studio
-2-	Click on the cloud extension.
-3-	Login to your Wakanda aPaaS account
-4-	Choose the remote solution where you want to publish your application
-5-	Click on the publish button.
-6-	Access your remote application by clicking on the link.
+1.	Open your local application in Wakanda Studio
+2.	Click on the cloud extension.
+3.	Login to your Wakanda aPaaS account
+4.	Choose the remote solution where you want to publish your application
+5.	Click on the publish button.
+6.	Access your remote application by clicking on the link.
 
 .. image:: images/21_publish_window.png
 	:align: center
