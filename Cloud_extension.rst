@@ -12,12 +12,13 @@ Publish
 *******
 
 You can use the publish functionality once you have created your application and are ready to deploy it to the cloud.
-The first publish operation will require some additional steps to bind the remote application with the local one.
+The first publish operation will require some additional steps to bind the remote application to the local one.
 
 First publish
 =============
 
 The few steps bellow show you how to deploy your application to the cloud for the first time:
+
 1-	Open your local application in Wakanda Studio
 2-	Click on the cloud extension.
 3-	Login to your Wakanda aPaaS account
@@ -37,7 +38,7 @@ After the first deployment, you can publish the updates of your application just
 Clone
 *****
 
-The clone feature allows you to share your application with your collaborators or to enjoy a high mobility by cloning your remote application no matter where you are.
+The clone feature allows you to share your application with your collaborators or to enjoy a high level of mobility by cloning your remote application no matter where you are.
 You can perform a clone operation by clicking on the clone feature 
 
 .. image:: images/22_clone_selection.png
