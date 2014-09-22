@@ -80,7 +80,7 @@ Auto-commit
 
 By activating this feature, the studio will automatically publish all the local modifications to the remote application.
 
-Once the ``auto-commit``you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the "Publish" menu item.
+Once the ``auto-commit`` you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the "Publish" menu item.
 
 .. image:: images/25_deactivated_autocommit.png
 	:align: center
