@@ -170,9 +170,9 @@ You can also delete a user from a group by clicking on the ``X`` button in the u
 Configure group permissions
 ===========================
 
-You can configure group permissions by clicking on the ``lock`` button.
+You can configure group permissions by clicking on the ``lock`` |lock| button.
 
-.. image:: images/19_permission_button.png
+.. |lock| image:: images/19_permission_button.png
 
 
 A predefined list of permissions appears where you can select/deselect the permissions you want to attribute to the group and then save the changes.
