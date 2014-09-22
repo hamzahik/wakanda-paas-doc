@@ -47,7 +47,8 @@ To clone an already published Wakanda Application, click on the clone menu item
 
 Select the target application from the list then click on the ``clone`` button
 
-//illustration
+.. image:: images/26_clone_window.png
+	:align: center
 
 Once the clone operation is completed, the solution will be opened automatically in the Studio.
 
@@ -80,7 +81,7 @@ Auto-commit
 
 By activating this feature, the studio will automatically publish all the local modifications to the remote application.
 
-Once the ``auto-commit`` option is deactivated, you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the ``Publish`` menu item.
+Once the ``auto-commit`` option is deactivated, you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the ``Publish` menu item.
 
 .. image:: images/25_deactivated_autocommit.png
 	:align: center
