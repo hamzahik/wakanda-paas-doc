@@ -2,7 +2,7 @@
 The Wakanda Cloud extension
 ===========================
 
-The cloud extension allows you to publish and clone your applications.
+The Cloud Studio Extension allows you to interract whith the Wakanda PaaS Service.
 
 .. image:: images/20_cloud_extension.png
 	:align: center
@@ -11,47 +11,51 @@ The cloud extension allows you to publish and clone your applications.
 Publish
 *******
 
-You can use the publish functionality once you have created your application and are ready to deploy it to the cloud.
-The first publish operation will require some additional steps to bind the remote application to the local one.
+At any time during your developpement, you can publish your application to Wakanda PaaS by clicking on the ``Cloud`` button.
+
+Once published, updating your remote application will simply require a click on the ``Cloud`` button or on the ``Publish`` menu item.
 
 First publish
 =============
 
-The few steps bellow show you how to deploy your application to the cloud for the first time:
+To deploy your application to the cloud for the first time:
 
 1.	Open your local application in Wakanda Studio
-2.	Click on the cloud extension.
-3.	Login to your Wakanda aPaaS account
-4.	Choose the remote solution where you want to publish your application
+2.	Click on the ``Cloud`` button
+3.	Type in your Wakanda PaaS credentials
+4.	Select the target remote application
 5.	Click on the publish button.
-6.	Access your remote application by clicking on the link.
 
 .. image:: images/21_publish_window.png
 	:align: center
 
-Publish modifications
-=====================
+Update the remote application
+=============================
 
-After the first deployment, you can publish the updates of your application just by clicking on the cloud button from the studio.
+After the first deployment, you can update your remote application just by clicking on the ``Cloud`` button or the ``Publish`` menu item.
 
 *****
 Clone
 *****
 
-The clone feature allows you to share your application with your collaborators or to enjoy a high level of mobility by cloning your remote application no matter where you are.
-You can perform a clone operation by clicking on the clone feature 
+The clone feature allows you to download your whole remote application's code, modifications history included.
+
+To clone an already published Wakanda Application, click on the clone menu item
 
 .. image:: images/22_clone_selection.png
 	:align: center
 
-and selecting the application you want to clone. 
-The chosen application will automatically be added to the list of your applications.
+Select the target application from the list then click on the ``clone`` button
+
+//illustration
+
+Once the clone operation is completed, the solution will be opened automatically in the Studio.
 
 ********
 Settings
 ********
 
-In the settings panel you can change your credentials, change the git repository linked to your local application and activate or deactivate the auto-commit feature.
+The settings dialog helps you customize the PaaS extension behaviour.
 
 .. image:: images/23_setting_selection.png
 	:align: center
@@ -59,22 +63,26 @@ In the settings panel you can change your credentials, change the git repository
 .. image:: images/24_setting_window.png
 	:align: center
 
-Change information
-==================
+Wakanda PaaS Credentials
+========================
 
-You can change your credentials or the git repository linked to your application by opening the settings panel, change the information your want and then click on save.
+To modify your Wakanda PaaS credentials just type in the new values on the corresponding areas. It is also possible to completely remove your saved credentials by cleaning both the login and password.
+
+To save your modifications click on the save button.
+
+Remote Git Repository
+=====================
+
+//Contenu
 
 Auto-commit
 ===========
 
-By activating this feature, the cloud extension will automatically publish your modifications.
+By activating this feature, the studio will automatically publish all the local modifications to the remote application.
 
-Otherwise, if this feature is deactivated, every time you will want to publish your application you will have to manually choose the files that you specifically want to deploy to your remote application.
+Once the ``auto-commit``you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the "Publish" menu item.
 
 .. image:: images/25_deactivated_autocommit.png
 	:align: center
 
-To activate or deactivate this feature you open the settings panel and check/uncheck the auto-commit checkbox and then click on save.	
-
-
-
+Click on the ``Save`` button to save your settings.
