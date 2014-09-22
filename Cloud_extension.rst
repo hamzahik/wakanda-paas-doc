@@ -2,12 +2,10 @@
 The Wakanda Cloud extension
 ===========================
 
-The cloud extension
+The cloud extension allows you to publish and clone your applications.
 
 .. image:: images/20_cloud_extension.png
 	:align: center
-
-allows you to publish and clone your applications.
 
 *******
 Publish
@@ -15,8 +13,6 @@ Publish
 
 You can use the publish functionality once you have created your application and are ready to deploy it to the cloud.
 The first publish operation will require some additional steps to bind the remote application with the local one.
-
-
 
 First publish
 =============
@@ -28,7 +24,6 @@ The few steps bellow show you how to deploy your application to the cloud for th
 4-	Choose the remote solution where you want to publish your application
 5-	Click on the publish button.
 6-	Access your remote application by clicking on the link.
-
 
 .. image:: images/21_publish_window.png
 	:align: center
