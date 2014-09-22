@@ -32,7 +32,7 @@ To deploy your application to the cloud for the first time:
 Update the remote application
 =============================
 
-After the first deployment, you can update your remote application just by clicking on the ``Cloud`` button or the ``Publish`` menu item.
+After the first deployment, you can update your remote application just by clicking on the ``Cloud`` button or the ``Publish`` menu item. To select the exact files to be published to the remote application, you can disable the `Auto-Commit`_ option.
 
 *****
 Clone
