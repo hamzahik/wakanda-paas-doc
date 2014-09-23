@@ -2,7 +2,7 @@
 The Wakanda Cloud extension
 ===========================
 
-The Cloud Studio Extension allows you to interract whith the Wakanda PaaS Service.
+The Cloud Studio Extension allows you to interact with the Wakanda PaaS Service.
 
 .. image:: images/20_cloud_extension.png
 	:align: center
@@ -11,7 +11,7 @@ The Cloud Studio Extension allows you to interract whith the Wakanda PaaS Servic
 Publish
 *******
 
-At any time during your developpement, you can publish your application to Wakanda PaaS by clicking on the ``Cloud`` button.
+At any time during your development, you can publish your application to Wakanda PaaS by clicking on the ``Cloud`` button.
 
 Once published, updating your remote application will simply require a click on the ``Cloud`` button or on the ``Publish`` menu item.
 
@@ -32,13 +32,13 @@ To deploy your application to the cloud for the first time:
 Update the remote application
 =============================
 
-After the first deployment, you can update your remote application just by clicking on the ``Cloud`` button or the ``Publish`` menu item. To select the exact files to be published to the remote application, you can disable the `Auto-Commit`_ option.
+After the first deployment, you can update your remote application by a simple click on the ``Cloud`` button or the ``Publish`` menu item. To select the exact files to be published to the remote application, you can disable the `Auto-Commit`_ option.
 
 *****
 Clone
 *****
 
-The clone feature allows you to download your whole remote application's code, modifications history included.
+The clone feature allows you to download your whole remote application's code and modifications, history included.
 
 To clone an already published Wakanda Application, click on the clone menu item
 
@@ -56,7 +56,7 @@ Once the clone operation is completed, the solution will be opened automatically
 Settings
 ********
 
-The settings dialog helps you customize the PaaS extension behaviour.
+The settings dialog helps you customize the PaaS extension's behaviour.
 
 .. image:: images/23_setting_selection.png
 	:align: center
@@ -67,7 +67,7 @@ The settings dialog helps you customize the PaaS extension behaviour.
 Wakanda PaaS Credentials
 ========================
 
-To modify your Wakanda PaaS credentials just type in the new values on the corresponding areas. It is also possible to completely remove your saved credentials by cleaning both the login and password.
+To modify your Wakanda PaaS credentials just type in the new values on the corresponding areas. It is also possible to completely remove your saved credentials by cleaning both the login and password fields.
 
 To save your modifications click on the save button.
 
@@ -81,7 +81,7 @@ Auto-commit
 
 By activating this feature, the studio will automatically publish all the local modifications to the remote application.
 
-Once the ``auto-commit`` option is deactivated, you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the ``Publish` menu item.
+If the ``auto-commit`` option is deactivated, you'll be asked to choose the files to be published to the remote application whenever you click on the ``Cloud`` button or the ``Publish` menu item.
 
 .. image:: images/25_deactivated_autocommit.png
 	:align: center
