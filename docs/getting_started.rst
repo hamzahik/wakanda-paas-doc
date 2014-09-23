@@ -105,8 +105,6 @@ Using the command line
 
 Push your application to the remote repository using the following command ::
 
-https://myapp.us-git.wak-apps.com/
-
     $ git push https://[my-application-name].us-git.wak-apps.com master
 
 .. note::
