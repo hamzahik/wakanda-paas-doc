@@ -8,8 +8,7 @@ By selecting an app in the application list, you will have access to a control p
 General view
 ************
 
-The general view gives you a summary of the application’s details. 
-It contains information about real-time usage statistics of memory and disk, as well as a control panel and the application’s history.
+The general view gives you real-time usage statistics of memory and disk, as well as a control panel and the application’s history.
 
 
 Stop/Start/Reload your application
@@ -23,17 +22,15 @@ You can access the control panel to manage the state of your remote application:
 Summary
 =======
 
-The summary block displays the current information related to the git repository
+The summary block displays the current information related to the git repository as well as RAM and Disk currently in use by your application
 
 .. image:: images/2_git_repository.png
 	:align: center
 
-or the RAM and Disk currently in use by your application
-
 .. image:: images/3_memory_disk_statistics.png
 	:align: center
 
-It will help you to make the correct decisions to scale your application up and down.
+It will help you make the correct decisions about scaling your application up and down.
 
 Application logs
 ================
@@ -43,7 +40,7 @@ The recent actions you have executed are displayed in the associated view.
 .. image:: images/4_recent_operations.png
 	:align: center
 
-If you want more detailed logs you can click on the ``application logs`` button to be redirected to the application logs view.
+If you want access to your Wakanda Solution logs you can click on the ``application logs`` button to be redirected to the application logs view.
 
 .. image:: images/5_application_log_link.png
 	:align: center
@@ -57,7 +54,7 @@ The monitoring view allows you to monitor the activity of your application, by c
 Graph's time-frame
 ==================
 
-You can configure the time frame of your graphs by setting a display window 
+You can select a time frame for your graphs by setting a display window 
 
 .. image:: images/6_graph_display_window.png
 	:align: center
@@ -135,21 +132,20 @@ You can create a new group by clicking on the ``add group`` button
 .. image:: images/14_add_group_button.png
 	:align: center
 
-A new pop up appears inviting you to type in:
+You will be invited to type in:
 
 -	The name of the group 
 -	The collaborators emails in the add users section 
 -	The permissions for this group of users 
 
-Then you click on the save changes button and your newly created group will be added to the groups list
+Click on the save changes button to create the group
 
 .. image:: images/15_add_group_window.png
 	:align: center
 
 .. note::
 
-    The owner group is automatically created with your application and contains your email only; no other user can be added to it.
-
+    The ``Owner`` group is automatically created with every application and can contain only the email of the application's owner.
 
 Manage users
 ============
