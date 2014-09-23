@@ -92,7 +92,7 @@ Fill in your Wakanda Cloud login information and click on ``Login``. If you want
 	
 if this is your first deployment, you will need to select the domain that you want to associate to your application.
 
-.. image:: images/studio_login_dialog.png
+.. image:: images/select_app.png
 	:align: center
 
 If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that have occurred.
