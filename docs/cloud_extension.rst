@@ -38,7 +38,7 @@ After the first deployment, you can update your remote application by a simple c
 Clone
 *****
 
-The clone feature allows you to download your whole remote application's code and modifications, history included.
+The clone feature allows you to download your whole remote application's code, modifications history included.
 
 To clone an already published Wakanda Application, click on the clone menu item
 
