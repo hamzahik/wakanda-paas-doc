@@ -22,7 +22,6 @@ Start by choosing an application type from the suggestions. In our example, we w
 .. image:: images/try_it_now.png
 	:align: center
 	
-//il n'y a plus la region europe faut il la garder tt de meme?
 By default, your application will be created in the US region. If you prefer a different region, select it from the list.
 
 .. image:: images/region.png
