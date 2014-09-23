@@ -81,20 +81,19 @@ Once you have opened your solution in Wakanda Studio, click on the Cloud extensi
 .. image:: images/studio_update_menu.png
 	:align: center
 
-If you have not initialized a local Git repository for your solution, you will be prompted to create one. To do so, click on the ``Yes`` button.
-
-.. image:: images/studio_create_repo.png
-	:align: center
-
 Fill in your Wakanda Cloud login information and click on ``Login``. If you want the studio to remember your credentials check the ``Remember me`` option.
 
 .. image:: images/studio_login_dialog.png
 	:align: center
+
 .. note::
 
     If you check the ``Remember me`` option your credentials will be saved as clear text in the cloud extension preferences.
 	
+if this is your first deployment, you will need to select the domain that you want to associate to your application.
 
+.. image:: images/select_app.png
+	:align: center
 
 If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that have occurred.
 
