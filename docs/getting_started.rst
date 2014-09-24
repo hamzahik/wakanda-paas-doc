@@ -2,7 +2,7 @@
 Getting Started
 ===============
 
-The following video demonstrates how to create an application from the dashboard and how to deploy and update it using Wakanda Studio.
+The following video demonstrates how to create an application from the dashboard and then to deploy and update it using Wakanda Studio.
 
 .. raw:: html
 
@@ -22,13 +22,13 @@ Start by choosing an application type from the suggestions. In our example, we w
 .. image:: images/try_it_now.png
 	:align: center
 	
-By default, your application will be created in the US region. If you prefer a different region, select it from the list.
+By default, your application will be created in the US. If you prefer a different region, you can select it from the list.
 
 .. image:: images/region.png
 	:align: center
 .. note::
 
-    Only the US region is available during the beta program
+    Only the US region is available in the beta program
 
 Choose a valid application name:
 
@@ -54,21 +54,21 @@ Developing your application with Wakanda Studio
 
 First you need to download_ Wakanda : http://www.wakanda.org/downloads
 
-To install Wakanda follow the steps: installation_
+To install Wakanda follow the installation_ steps.
 
 Now you can develop your first Wakanda application, click here_ for more details
 
 
 **************************************
-Publishing & Updating your application
+Publishing & updating your application
 **************************************
 
-Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your new code to your application's remote repository, which can be done using Wakanda Studio's Cloud Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
+Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your code to your application's remote repository, which can be done using Wakanda Studio's Cloud Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
 
 Application remote repository
 =============================
 
-You can get your application's remote repository URL by clicking the ``copy repository`` button. 
+You can get your application's remote repository URL by clicking the ``Copy Repository`` button. 
 
 .. image:: images/git_copy_repo.png
 	:align: center
@@ -81,28 +81,28 @@ Once you have opened your solution in Wakanda Studio, click on the Cloud extensi
 .. image:: images/studio_update_menu.png
 	:align: center
 
-Fill in your Wakanda Cloud login information and click on ``Login``. If you want the studio to remember your credentials check the ``Remember me`` option.
+Fill in your Wakanda Cloud login information and click  ``Login``. If you want Wakanda Studio to remember your credentials, check the ``Remember me`` checkbox.
 
 .. image:: images/studio_login_dialog.png
 	:align: center
 
 .. note::
 
-    If you check the ``Remember me`` option your credentials will be saved as clear text in the cloud extension preferences.
+    If you check the ``Remember me`` checkbox, your credentials will be saved as plain text in the Wakanda Cloud extension's preferences.
 	
 if this is your first deployment, you will need to select the domain that you want to associate to your application.
 
 .. image:: images/select_app.png
 	:align: center
 
-If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that have occurred.
+If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that occurred.
 
 .. image:: images/studio_published_dialog.png
 
 Using the command line
 ======================
 
-Push your application to the remote repository using the following command ::
+Push your application to the remote repository by using the following command ::
 
     $ git push https://[my-application-name].us-git.wak-apps.com master
 
