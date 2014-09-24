@@ -12,7 +12,7 @@ The following video demonstrates how to create an application from the dashboard
 Creating your first application
 *******************************
 
-Once you are connected to your dashboard, click on the ``New Application`` button to open the application creation wizard.
+Once you are connected to the dashboard, click on the ``New Application`` button to open the application creation wizard.
 
 .. image:: images/noapps.png
 	:align: center
@@ -54,8 +54,6 @@ Developing your application with Wakanda Studio
 
 First you need to download_ Wakanda : http://www.wakanda.org/downloads
 
-To install Wakanda follow the installation_ steps.
-
 Now you can develop your first Wakanda application, click here_ for more details
 
 
@@ -63,7 +61,7 @@ Now you can develop your first Wakanda application, click here_ for more details
 Publishing & updating your application
 **************************************
 
-Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your code to your application's remote repository, which can be done using Wakanda Studio's Cloud Extension, Git Command Line, or any IDE that supports Git Smart HTTP.
+Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your code to your application's remote repository, which can be done using Wakanda Studio, Git Command Line, or any IDE that supports Git Smart HTTP.
 
 Application remote repository
 =============================
@@ -76,7 +74,7 @@ You can get your application's remote repository URL by clicking the ``Copy Repo
 Using Wakanda Studio
 ====================
 
-Once you have opened your solution in Wakanda Studio, click on the Cloud extension button in the toolbar and select the ``Publish`` menu item.
+Once you have opened your solution in Wakanda Studio, click on the Cloud button in the toolbar and select the ``Publish`` menu item.
 
 .. image:: images/studio_update_menu.png
 	:align: center
@@ -88,9 +86,9 @@ Fill in your Wakanda Cloud login information and click  ``Login``. If you want W
 
 .. note::
 
-    If you check the ``Remember me`` checkbox, your credentials will be saved as plain text in the Wakanda Cloud extension's preferences.
+    If you check the ``Remember me`` checkbox, your credentials will be saved as plain text in the Wakanda Cloud's preferences.
 	
-if this is your first deployment, you will need to select the domain that you want to associate to your application.
+If this is your first deployment, you will need to associate a domain name to your application.
 
 .. image:: images/select_app.png
 	:align: center
