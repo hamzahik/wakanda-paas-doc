@@ -1,20 +1,20 @@
-=========================
-The application dashboard
-=========================
+=========
+Dashboard
+=========
 
-By selecting an app in the application list, you will have access to a control panel with different views.
+When you select an application from the list, a control panel with different views appears.
 
 ************
 General view
 ************
 
-The general view gives you real-time usage statistics of memory and disk, as well as a control panel and the application’s history.
+The general view gives you real-time usage statistics of the memory and disk space. There is also a control panel and the application’s history.
 
 
 Stop/Start/Reload your application
 ==================================
 
-You can access the control panel to manage the state of your remote application: stop it, start it or reload it.
+You can access the control panel to manage the state of your remote application. You can do one of the three following actions on your application: start,stop or reload.
 
 .. image:: images/1_control_panel.png
 	:align: center
@@ -22,7 +22,7 @@ You can access the control panel to manage the state of your remote application:
 Summary
 =======
 
-The summary block displays the current information related to the git repository as well as RAM and Disk currently in use by your application
+The summary block displays the current information related to the Git repository as well as the RAM and disk space currently being used by your application
 
 .. image:: images/2_git_repository.png
 	:align: center
@@ -30,7 +30,7 @@ The summary block displays the current information related to the git repository
 .. image:: images/3_memory_disk_statistics.png
 	:align: center
 
-It will help you make the correct decisions about scaling your application up and down.
+It will help you make the correct decisions about scaling either up or down your application.
 
 Application logs
 ================
@@ -40,7 +40,7 @@ The recent actions you have executed are displayed in the associated view.
 .. image:: images/4_recent_operations.png
 	:align: center
 
-If you want access to your Wakanda Solution logs you can click on the ``application logs`` button to be redirected to the application logs view.
+If you want to access your Wakanda Solution logs, click on the ``Application Logs`` button to be redirected to the application logs view.
 
 .. image:: images/5_application_log_link.png
 	:align: center
@@ -49,25 +49,21 @@ If you want access to your Wakanda Solution logs you can click on the ``applicat
 Monitoring view
 ***************
 
-The monitoring view allows you to monitor the activity of your application, by charting usage statistics of memory, storage and network I/O.
+The monitoring view allows you to monitor the activity of your application, by charting the usage statistics of memory, storage and network I/O.
 
 Graph's time-frame
 ==================
 
-You can select a time frame for your graphs by setting a display window 
+You can select a time frame for your graphs by setting a display window as well as a starting date: 
 
-.. image:: images/6_graph_display_window.png
+.. image:: images/6_time_frame.png
 	:align: center
 
-and a starting point	
 
-.. image:: images/7_graph_start_date.png
-	:align: center
+Metrics
+=======
 
-Add metrics
-===========
-
-You can add new metrics to a graph simply by clicking on the add button ``+`` , selecting the metric you want from the list and then clicking on ``add to graph`` button 
+You can add new metrics to a graph simply by clicking on the ``+`` button, selecting the metric you want from the list, and clicking on ``Add to graph`` button 
 
 .. image:: images/9_add_metrics.png
 	:align: center
@@ -82,7 +78,7 @@ Delete/add graphs
 
 The ``x`` button allows you to delete the graph from the monitoring view.
 
-To add a new graph, you simply click on the ``new chart`` button 
+To add a new graph, click on the ``New chart`` button 
 
 .. image:: images/11_add_chart.png
 	:align: center
@@ -93,10 +89,10 @@ Domains view
 
 Wakanda allows for multi-project applications. To get them running you need subdomains or custom domains to relay received requests to the correct project.
 
-Add a sub domain
-================
+Adding a subdomain
+==================
 
-You can add new subdomains by typing the subdomain you want and clicking on the add button.
+You can add new subdomains by typing the subdomain you want and clicking on the ``Add`` button.
 
 .. image:: images/12_subdomains_view.png
 	:align: center
@@ -105,38 +101,38 @@ The newly created subdomain will be automatically added to the list of your appl
 
 .. note::
 
-	A subdomain must be unique.
+	The name of the subdomain must be unique.
 
-Add a custom domain
-===================
+Adding a custom domain
+======================
 
-If you have domains you want to bind with your application, you simply have to add it in the custom domains section.
-You insert your custom domain and then click on the add button 
+If you have domains you want to bind to your application, you simply have to add it in the custom domains section.
+To do so, you enter a custom domain and then click on the ``Add`` button 
 
 .. image:: images/13_custom_domain_view.png
 	:align: center
 
-The newly bound custom domain will be automatically added to the list of your application’s custom domains.
+The custom domain will be automatically added to the list of your application’s custom domains.
 
 ****************
 Permissions view
 ****************
 
-The Permissions view offers the ability to work in a collaborative mode by managing user and group permissions.
+The Permissions view offers you a way to work in a collaborative mode by managing permissions for users and groups.
 
-Create a group
-==============
+Creating a group
+================
 
-You can create a new group by clicking on the ``add group`` button 
+You can create a new group by clicking on the ``Add Group`` button 
 
 .. image:: images/14_add_group_button.png
 	:align: center
 
-You will be invited to type in:
+You must do the following:
 
--	The name of the group 
--	The collaborators emails in the add users section 
--	The permissions for this group of users 
+-	Enter the name of the group. 
+-	Enter the emails of the collaborators in the Add users section.
+-	Set the permissions for the group.
 
 Click on the save changes button to create the group
 
@@ -145,35 +141,35 @@ Click on the save changes button to create the group
 
 .. note::
 
-    The ``Owner`` group is automatically created with every application and can contain only the email of the application's owner.
+    The ``Owner`` group is created automatically with every application. It contains only the email of the application's owner.
 
-Manage users
-============
+Managing users
+==============
 
-Within the users panel, you can add or remove collaborators from the selected group.
-To add a new user to the group you click on the ``add users to the group`` link or the ``manage users`` button
+On the users panel, you can add or remove collaborators from a selected group.
+To add a new user to the group, you click on the ``Add users to the group`` link or the ``Manage Users`` button
 
 .. image:: images/17_manage_user_button.png
 	:align: center
 
-and then type in the user’s email and click on invite or select an existing user from one of your application’s existing groups
+Type in the user’s email and click on ``Invite`` or select an existing user from one of your application’s existing groups
 
 .. image:: images/18_add_user_window.png
 	:align: center
 
 You can also delete a user from a group by clicking on the ``X`` button in the user panel or in the manage users view by deselecting it.
 
-Configure group permissions
-===========================
+Configuring group permissions
+=============================
 
-You can configure group permissions by clicking on the ``lock`` button |lock|.
+You can configure group permissions by clicking on the |lock| button.
 
 .. |lock| image:: images/19_permission_button.png
 
 
 A predefined list of permissions appears where you can select/deselect the permissions you want to attribute to the group and then save the changes.
 
-Delete a group
-==============
+Deleting a group
+================
 
-You delete a group by simply clicking on the ``X`` button of the group.
+You delete a group by simply clicking on the ``X`` button next to the group name.
