@@ -78,7 +78,7 @@ You can configure the default target remote application for each Wakanda Solutio
 
 To save your modifications click on ``Save``.
 
-Once configured, the remote application will linked to your local one. To unlink it, simply click on the Unlink button in the settings dialog.
+Once configured, the remote application will be linked to your local one. To unlink it, simply click on the Unlink button in the settings dialog.
 
 Auto-commit
 ===========
