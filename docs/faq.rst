@@ -48,7 +48,7 @@ We will keep you updated as new features are integrated in the service.
 How do I report a feature request to Wakanda Cloud?
 ===================================================
 
-To report a feature request to Wakanda Cloud use the Cloud Support email address or post your requests on the following forum thread http://forum.wakanda.org/xxxxxxxxxxx
+To report a feature request to Wakanda Cloud use the Cloud Support email address or post your requests on the following forum thread http://forum.wakanda.org/showthread.php?7196-Cloud-Beta-Hotfixes
 
 Do I have access to Wakanda's default administration solution?
 ==============================================================
