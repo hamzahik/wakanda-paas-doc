@@ -2,8 +2,9 @@
 Dashboard
 =========
 
-The main view of the console gives you access to the list of your own and shared applications. 
-Each column in the list describes the region the application is created in as well as the offer type and the owner if the application is not yours. it also includes quick action buttons to preview the app, delete it or get its detailed view.
+The main view of the console gives you access to the list of your own and shared applications.
+
+Each row in the list describes the region the application is created in as well as the offer type and the owner if the application is not yours. it also includes quick action buttons to preview the app, delete it or get its detailed view.
 
 .. image:: images/26_application_list.png
 	:align: center
@@ -14,7 +15,8 @@ When you select an application from the list, a control panel with different vie
 General view
 ************
 
-The general view gives you real-time statistics of the memory and disk space usage. 
+The general view gives you real-time statistics of the memory and disk space usage.
+
 This view also provides a control panel to manage your app, as well as a log of the most recent operations performed.
 
 
