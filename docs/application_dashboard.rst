@@ -46,7 +46,7 @@ The recent actions you have executed (edit permissions, publish app, ...) are di
 .. image:: images/4_recent_operations.png
 	:align: center
 
-If you want to access your Wakanda Solution logs, click on the ``Application Logs`` button to be redirected to the application logs view.
+If you want to access your Wakanda Solution logs, click on the ``Application Logs`` link to be redirected to the application logs view.
 
 .. image:: images/5_application_log_link.png
 	:align: center
