@@ -6,7 +6,7 @@ The following video demonstrates how to create an application from the dashboard
 
 .. raw:: html
 
- <div id="player" class="align-center"></div><br><br><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"dBU8aV3XK78",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
+ <div id="player" class="align-center"></div><br><br><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"8YkEv0ueFpw",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
 
 *******************************
 Creating your first application
@@ -66,9 +66,9 @@ Publishing your code the first time is the same as updating an already deployed 
 Application remote repository
 =============================
 
-You can get your application's remote repository URL by clicking the ``Copy Repository`` button. 
+You can get your application's remote repository URL in the app's git repository section. 
 
-.. image:: images/git_copy_repo.png
+.. image:: images/2_git_repository.png
 	:align: center
 
 Using Wakanda Studio
