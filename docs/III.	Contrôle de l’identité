@@ -1,0 +1,41 @@
+III.	Contrôle de l’identité
+	Le controle de l'identité se fait en comparant le mail avec celui renseigné sur LDAP, hors LDAP fait partie des briques ayant besoin d'autorisation en lecture? ca fait ralentir le boulot.
+	Controler les souscription: cela laisse a supposer que le client va renseigner une souscription mais vu que c'est un mail, est ce qu'il est censé le deviner de lui meme.
+
+
+VI.	Définir la priorité
+	définition de la priorité sous quels critères?
+	comment est ce que cela va etre visible pour le collaborateur ?
+
+
+VII.	Assigner l’incident
+	et se verra notifié par mail.
+
+VIII.	Procédure de validation
+
+b.	Procédure de validation des communications
+	validation devrait etre un peu plus developpée:
+
+	Deux canaux de communications sont utilisés à travers TAOW pour permettre une meilleure communication que ce soit en interne ou bien avec le client.
+
+	Le premier canal est représenté par les reponses privées : il permet de recolter plus d'informations en interne par rapport à l'incident. ce genre de reponses n'est pas communiqué au client et aucune une validation au préalable de la part du responsable support n'est requise.
+
+	Les reponses publiques: ce canal n'est utilisé que si on veut communiquer avec le client que ce soit pour l'informer de l'évolution de son incident ou obtenir des compléments d'informations et doit subir au préalable une validation de la part du responsable support. 
+
+	Note: il faut être particulierement vigilant par rapport a l'utilisation des reponses publiques (aucune information interne ne doit se retrouver par mégarde exposée publiquement, d'où la nécessité d'une validation au préalable avant son utilisation)
+
+
+
+c.	Procédure de validation des actions sur les applications
+	le code client ou les données clients ne devraient etre lues qu'apres validation du client.
+
+
+IX.	Modèles de demandes
+
+•	Changement du mot de passe
+	devra peut etre etre enlevé avec la feature de forget password et change password qui vont etre implémentés.
+
+ Feature request:
+Comment va se faire le suivi de sa requete? comment et où est ce qu'elle sera enregistrée?
+
+

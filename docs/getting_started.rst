@@ -66,9 +66,9 @@ Publishing your code the first time is the same as updating an already deployed 
 Application remote repository
 =============================
 
-You can get your application's remote repository URL by clicking the ``Copy Repository`` button. 
+You can get your application's remote repository URL in the app's git repository section. 
 
-.. image:: images/git_copy_repo.png
+.. image:: images/2_git_repository.png
 	:align: center
 
 Using Wakanda Studio
