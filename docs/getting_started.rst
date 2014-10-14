@@ -47,14 +47,6 @@ To create your application, click on the ``Finish`` button.
 
 .. image:: images/finish.png
 	:align: center
-	
-***********************************************
-Developing your application with Wakanda Studio
-***********************************************
-
-First you need to download_ Wakanda : http://www.wakanda.org/downloads
-
-Now you can develop your first Wakanda application, click here_ for more details
 
 
 **************************************
