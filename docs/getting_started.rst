@@ -101,7 +101,3 @@ Push your application to the remote repository by using the following command ::
     If your local repository is using a branch name other than ``master``, you must use the following command to push your application to the remote repository ::
 
     $ git push https://[my-application-name].us-git.wak-apps.com [local-branch-name]:master
-    
-.. _download: http://www.wakanda.org/downloads
-.. _installation: http://doc.wakanda.org/home2.fr.html#/Installing-Wakanda/Installing-Wakanda.100-689089.en.html
-.. _here: http://doc.wakanda.org/home2.fr.html#/Quick-Start/Quick-Start.100-695763.en.html
