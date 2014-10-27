@@ -29,11 +29,6 @@ How do I report bugs to the Wakanda Cloud team?
 
 To report a bug to the Wakanda Cloud team you can contact the Cloud Support Team at cloudsupport@wakanda.org
 
-How can I reset my password?
-============================
-
-You can send a request to the Wakanda Cloud support team at (cloudsupport@wakanda.org) using your account email address. Once your request is confirmed you will receive an email with your new password.
-
 What version of Wakanda is used on the Wakanda Cloud beta service?
 ==================================================================
 
