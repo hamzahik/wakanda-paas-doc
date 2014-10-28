@@ -32,7 +32,7 @@ To report a bug to the Wakanda Cloud team you can contact the Cloud Support Team
 What version of Wakanda is used on the Wakanda Cloud beta service?
 ==================================================================
 
-Wakanda Cloud beta program uses Wakanda Enterprise 9.170192
+Wakanda Cloud beta program uses Wakanda Enterprise 9.171985
 
 Can I use Wakanda Enterprise's "connectors" or "connectors pro" in the applications I deploy to the Cloud?
 ==========================================================================================================
