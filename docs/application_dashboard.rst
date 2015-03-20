@@ -50,6 +50,16 @@ If you want to access your Wakanda Solution logs, click on the ``Application Log
 
 .. image:: images/5_application_log_link.png
 	:align: center
+	
+Data download
+=============
+
+You can download your application's data with a simple click using the "download database" button.
+
+An email will be sent to you containing your waData files.
+
+.. image:: images/data_download.png
+	:align: center		
 
 ***************
 Monitoring view
