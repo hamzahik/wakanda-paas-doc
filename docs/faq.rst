@@ -27,7 +27,7 @@ Make sure you have enabled the backup in your application's data management view
 How do I report bugs to the Wakanda Cloud team?
 ===============================================
 
-To report a bug to the Wakanda Cloud team you can contact the Cloud Support Team at cloudsupport@wakanda.org
+To report a bug to the Wakanda Cloud team you can contact the [Cloud Support Team!](https://support.wakanda.io).
 
 What version of Wakanda is used on the Wakanda Cloud service?
 =============================================================
@@ -37,7 +37,7 @@ Wakanda Cloud uses Wakanda Enterprise 10.184651
 How do I report a feature request to Wakanda Cloud?
 ===================================================
 
-To report a feature request to Wakanda Cloud use the Cloud Support email address or post your requests on the following forum thread http://forum.wakanda.org/showthread.php?7196-Cloud-Beta-Hotfixes
+To report a feature request to Wakanda Cloud please contact our [Cloud Support Team!](https://support.wakanda.io).
 
 Do I have access to Wakanda's default administration solution?
 ==============================================================
@@ -47,7 +47,7 @@ Wakanda Cloud does not provide access to Wakanda's default administration soluti
 Can I use web-sockets in the application I deploy to the cloud?
 ===============================================================
 
-Wakanda Cloud allows you to use the web-sockets in your applications.
+Wakanda Cloud allows you to use the web-sockets in your applications. however the keep-alive is set to one minute.
 
 Are my solution's configuration settings overwritten when I deploy my application to the cloud?
 ===============================================================================================

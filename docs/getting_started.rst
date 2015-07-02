@@ -91,7 +91,7 @@ Fill in your Wakanda Cloud login information and click  ``Login``. If you want W
 	
 If this is your first deployment, you will need to associate a domain name to your application.
 
-.. image:: images/select_app.png
+.. image:: images/21_publish_window.png
 	:align: center
 
 If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that occurred.
