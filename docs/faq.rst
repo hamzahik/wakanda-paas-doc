@@ -16,7 +16,7 @@ No. You can have as many applications shared with you as you want. You will stil
 What happens if my application is not used for a long time? does it get idled?
 ==============================================================================
 
-The current policy is to keep all deployed applications running.
+The current policy is to keep all deployed applications running, except for the demo applications that are limited to three months.
 
 What happens to my application's data in case of a major failure event?
 =======================================================================
@@ -47,7 +47,7 @@ Wakanda Cloud does not provide access to Wakanda's default administration soluti
 Can I use web-sockets in the application I deploy to the cloud?
 ===============================================================
 
-Wakanda Cloud allows you to use the web-sockets in your applications. however the keep-alive is set to one minute.
+Wakanda Cloud allows you to use the web-sockets in your applications. however you must set the keep-alive to one minute.
 
 Are my solution's configuration settings overwritten when I deploy my application to the cloud?
 ===============================================================================================
