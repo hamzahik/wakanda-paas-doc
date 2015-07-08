@@ -54,3 +54,38 @@ Are my solution's configuration settings overwritten when I deploy my applicatio
 
 Yes, to be able to run your application on Wakanda Cloud, some elements of the configuration of your solution need to be overwritten.
  
+Are automatic backups enabled by default when I buy a new application?
+======================================================================
+
+No, automatic backups must be activated by you by setting the frequency and the time at which you want to make your full backup.
+
+Could I invite someone who does not have a Wakanda Cloud account to my application?
+===================================================================================
+
+No, your collaborators must have a Wakanda Cloud account before being invited to your application.  
+
+Could I associate several Wakanda Cloud accounts with a single Paypal account?
+==============================================================================
+
+Yes, every Wakanda Cloud account will be billed separately but the payment will be made with the same Paypal account.
+
+Is VAT applied to my purchases?
+===============================
+
+Yes, if you are within the European Union, VAT will be applied at a rate depending on the country in which you are located.
+
+Why set the VAT ID?
+====================
+
+If you have a valid VAT ID you will automatically be exempt from VAT (for companies located in the European Union).
+
+How am I billed for my application for the first time?
+======================================================
+
+Wakanda Cloud has adopted a pre-payment policy. Every time you buy a new application a payment is made for the period starting at the day of purchase and ending at the end of the month (except for the purchases between the 28th to the last day of the month where the period is extended to the last day of the next month).
+
+How do the recurring billing work?
+==================================
+
+Every first day of the month, you will receive an invoice summarizing all your applications and the total billed. there is no hidden cost, only the total amount of your subscriptions plus the VAT if it applies.
+ 
