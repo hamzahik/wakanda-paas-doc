@@ -27,7 +27,7 @@ Make sure you have enabled the backup in your application's data management view
 How do I report bugs to the Wakanda Cloud team?
 ===============================================
 
-To report a bug to the Wakanda Cloud team you can contact the [Cloud Support Team!](https://support.wakanda.io).
+To report a bug to the Wakanda Cloud team you can contact the [Cloud Support Team!](https://support.wakanda.io). However, you must complete your personnal information first.
 
 What version of Wakanda is used on the Wakanda Cloud service?
 =============================================================
@@ -38,6 +38,7 @@ How do I report a feature request to Wakanda Cloud?
 ===================================================
 
 To report a feature request to Wakanda Cloud please contact our [Cloud Support Team!](https://support.wakanda.io).
+However, you must complete your personnal information first.
 
 Do I have access to Wakanda's default administration solution?
 ==============================================================
@@ -87,5 +88,5 @@ Wakanda Cloud has adopted a pre-payment policy. Every time you buy a new applica
 How do the recurring billing work?
 ==================================
 
-Every first day of the month, you will receive an invoice summarizing all your applications and the total billed. there is no hidden cost, only the total amount of your subscriptions plus the VAT if it applies.
+Every first day of the month, you will receive an invoice summarizing all your applications and the total billed. There is no hidden cost, only the total amount of your subscriptions plus the VAT if it applies.
  
