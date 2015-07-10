@@ -5,7 +5,7 @@ Dashboard
 The main view of the console gives you access to the list of your own and shared applications.
 Each row in the list describes the region the application is created in as well as the offer type and the owner if the application is not yours. it also includes quick action buttons to preview the app, delete it or get its detailed view.
 
-.. image:: images/26_application_list.png
+.. image:: images/application_list.png
 	:align: center
 
 When you select an application from the list, a control panel with different views appears.
@@ -28,12 +28,15 @@ You can access the control panel to manage the state of your remote application.
 
 Summary
 =======
-The summary block displays information regarding memory's and disk space's current usage. It also provides a quick shortcut to the Git repository associated to your app.
+The summary block displays information regarding memory's and disk space's current usage. It also provides a quick shortcut to the Git repository associated to your app and the version of your application's wakanda server.
+
+.. image:: images/3_memory_disk_statistics.png
+	:align: center
 
 .. image:: images/2_git_repository.png
 	:align: center
 
-.. image:: images/3_memory_disk_statistics.png
+.. image:: images/wakanda_version.png
 	:align: center
 
 This summary will help you make the correct decisions about scaling either up or down your application.
@@ -41,25 +44,10 @@ This summary will help you make the correct decisions about scaling either up or
 Application logs
 ================
 
-The recent actions you have executed (edit permissions, publish app, ...) are displayed in the associated view. 
+The recent actions you or your collaborators have executed (update permissions, publish app, ...) are displayed in this view.
 
 .. image:: images/4_recent_operations.png
 	:align: center
-
-If you want to access your Wakanda Solution logs, click on the ``Application Logs`` link to be redirected to the application logs view.
-
-.. image:: images/5_application_log_link.png
-	:align: center
-	
-Data download
-=============
-
-You can download your application's data with a simple click using the "download database" button.
-
-An email will be sent to you containing your waData files.
-
-.. image:: images/data_download.png
-	:align: center		
 
 ***************
 Monitoring view
@@ -103,21 +91,7 @@ To add a new graph, click on the ``New chart`` button
 Domains view
 ************
 
-Wakanda allows for multi-project applications. To get them running you need subdomains or custom domains to relay received requests to the correct project.
-
-Adding a subdomain
-==================
-
-You can add new subdomains by typing a name for your subdomain in the corresponding field and clicking on the ``Add`` button.
-
-.. image:: images/12_subdomains_view.png
-	:align: center
-
-The newly created subdomain will be automatically added to the list of your application’s subdomains.
-
-.. note::
-
-	The name of the subdomain must be unique.
+Wakanda Cloud allows you to bind your custom domains to your cloud applications.
 
 Adding a custom domain
 ======================
@@ -144,20 +118,20 @@ You can create a new group by clicking on the ``Add Group`` button
 .. image:: images/14_add_group_button.png
 	:align: center
 
+.. note::
+
+    The ``Owner`` group is created automatically with every application. The only user it contains is the application's owner.	
+
 The pop-up that shows up allows you to:
 
 -	Set a name for the group. 
 -	Type the emails of the collaborators in the ``Add users`` section.
 -	Set custom permissions for the group.
 
-Click on the ``save changes`` button to create the group
+Click on the ``save`` button to create the group
 
-.. image:: images/15_add_group_window.png
+.. image:: images/add_group_window.png
 	:align: center
-
-.. note::
-
-    The ``Owner`` group is created automatically with every application. The only user it contains is the application's owner.
 
 Managing users
 ==============
@@ -193,3 +167,73 @@ You delete a group by simply clicking on the ``X`` button next to the group name
 .. note:: 
 
 	You should delete all users in a group before deleting it.
+
+*************
+Database view
+*************
+
+The database view allows you to manage your application's data, from scheduling your backups to exporting your remote waData file.
+
+Data backups
+============
+
+You can schedule, download and restore your backups in this view.
+
+To schedule a backup you simply have to set the frequency and the time you want to start your full backups.
+
+The frequency of the incremental backups depend on the choice you have made.
+
+.. image:: images/backup_frequency.png
+	:align: center
+
+There are three frequencies you can choose from:
+
+-	Daily: a full backup of your application's data will occur every day at the time you have specified. An incremental backup is executed every hour.
+		This frequency is suitable for applications in which data is critical and requires a fine level of restore points.
+-	Weekly: a full backup of your application's data will occur every week at the day and time you have specified. An incremental backup is executed once every 6 hours.
+		This type of frequency is a good compromise between the uptime of your application and the restore points available.
+-	Monthly: a full backup of your application's data will occur every month at the date and time you have specified. An incremental backup is executed every 24 hours.
+		If the uptime of your application is something you care about, this frequency is most suited for your application. The full backup is only performed once a month and lets you have daily restore points.
+
+You can also find the list of completed backups 
+
+.. image:: images/list_backup.png
+	:align: center
+
+Each row contains information about the backup made at that point in time. It includes the date of the backup, its state, its type and the various actions that can be done on it (download backup file, restore it, or the download its verify report).
+
+Import and export Data
+======================
+
+You can easily manage your remote application's data by importing and exporting your waData file in this view.
+
+To import your waData file to your remote application, you can drag and drop the waData file in the specified section or select it by clicking on ``Select File`` button.
+
+.. image:: images/import_data.png
+	:align: center	
+
+Once the waData file is selected, click on the ``Import Data`` button and your newly imported data will take effect.
+
+To export your remote application waData file, click on the ``Export Database`` and the download should start shortly after
+
+.. image:: images/export_data.png
+	:align: center
+
+*********
+Logs view
+*********
+
+The logs view allows you to access your Wakanda Solution's logs.
+
+.. image:: images/logs_view.png
+	:align: center	
+
+
+************
+Profile view
+************	
+
+The profile view allows you to manage your personal, billing and entreprise information.
+
+.. image:: images/user_info.png
+	:align: center

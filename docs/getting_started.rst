@@ -17,9 +17,9 @@ Once you are connected to the dashboard, click on the ``New Application`` button
 .. image:: images/noapps.png
 	:align: center
 	
-Start by choosing an application type from the suggestions. In our example, we will be creating a free application. To proceed, click on the ``Try it now`` button.
+Start by choosing an application type from the suggestions. In our example, we will be creating a free application. To proceed, click on the ``Free application`` button.
 
-.. image:: images/try_it_now.png
+.. image:: images/free_application.png
 	:align: center
 	
 By default, your application will be created in the US. If you prefer a different region, you can select it from the list.
@@ -28,26 +28,35 @@ By default, your application will be created in the US. If you prefer a differen
 	:align: center
 .. note::
 
-    Only the US region is available in the beta program
+    As of the moment, only the US region is available
 
 Choose a valid application name:
 
 .. image:: images/domain.png
 	:align: center
 
-Optionally, you can add subdomains and custom domains to your application's configuration.
-
-.. image:: images/subdomains.png
-	:align: center
+Optionally, you can add custom domains to your application's configuration.
 
 .. image:: images/custom_domains.png
 	:align: center
 
-To create your application, click on the ``Finish`` button.
+In the next step, you are invited to provide your user's information
 
-.. image:: images/finish.png
+.. image:: images/user_information.png
 	:align: center
 
+.. note::
+
+    Before proceeding to the next step, all the required fields must be filled.
+    The required fields are:
+    - Personal information: first name and last name
+    - Billing information: address, country and zip code
+
+
+Before creating your application, you must agree to our terms of service and then click on the ``save`` button.
+
+.. image:: images/save.png
+	:align: center
 
 **************************************
 Publishing & updating your application
@@ -82,7 +91,7 @@ Fill in your Wakanda Cloud login information and click  ``Login``. If you want W
 	
 If this is your first deployment, you will need to associate a domain name to your application.
 
-.. image:: images/select_app.png
+.. image:: images/21_publish_window.png
 	:align: center
 
 If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that occurred.
