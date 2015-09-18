@@ -2,12 +2,6 @@
 Getting Started
 ===============
 
-The following video demonstrates how to create an application from the dashboard and then to deploy and update it using Wakanda Studio.
-
-.. raw:: html
-
- <div id="player" class="align-center"></div><br><br><script>function onYouTubeIframeAPIReady(){player=new YT.Player("player",{height:"315",width:"420",videoId:"8YkEv0ueFpw",events:{onReady:onPlayerReady}})}function onPlayerReady(){player.setPlaybackQuality("hd1080")}var tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";var firstScriptTag=document.getElementsByTagName("script")[0];firstScriptTag.parentNode.insertBefore(tag,firstScriptTag);var player;</script>
-
 *******************************
 Creating your first application
 *******************************
