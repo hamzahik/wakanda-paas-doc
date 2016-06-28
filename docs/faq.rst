@@ -32,7 +32,7 @@ To report a bug to the Wakanda Cloud team you can contact the [Cloud Support Tea
 What version of Wakanda is used on the Wakanda Cloud service?
 =============================================================
 
-Wakanda Cloud uses Wakanda Enterprise 10.184651
+Wakanda Cloud uses Wakanda Enterprise 11.195328
 
 How do I report a feature request to Wakanda Cloud?
 ===================================================
