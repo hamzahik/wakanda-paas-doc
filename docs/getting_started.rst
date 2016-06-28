@@ -6,7 +6,7 @@ Getting Started
 Creating your first application
 *******************************
 
-Once you have created an account in the [Wakanda Cloud Console](https://console.wakanda.io/){:target="_blank"} , connect to the dashboard, click on the ``New Application`` button to open the application creation wizard.
+Once you have created an account in the [Wakanda Cloud Console](https://console.wakanda.io), connect to the dashboard, click on the ``New Application`` button to open the application creation wizard.
 
 .. image:: images/noapps.png
 	:align: center
