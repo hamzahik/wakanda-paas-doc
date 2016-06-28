@@ -6,7 +6,7 @@ Getting Started
 Creating your first application
 *******************************
 
-Once you are connected to the dashboard, click on the ``New Application`` button to open the application creation wizard.
+Once you have created an account in the [Wakanda Cloud Console](https://console.wakanda.io/){:target="_blank"} , connect to the dashboard, click on the ``New Application`` button to open the application creation wizard.
 
 .. image:: images/noapps.png
 	:align: center
@@ -56,41 +56,74 @@ Before creating your application, you must agree to our terms of service and the
 Publishing & updating your application
 **************************************
 
-Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your code to your application's remote repository, which can be done using Wakanda Studio, Git Command Line, or any IDE that supports Git Smart HTTP.
+Publishing your code the first time is the same as updating an already deployed application. All you need to do is push your code to your application's remote repository.
 
 Application remote repository
 =============================
 
-You can get your application's remote repository URL in the app's git repository section. 
+.. image:: images/2_git_repository.png
+	:align: center
+	
+	
+It is an unique URL that points to your cloud git repository.  The URL information is available in the app’s git repository section.
 
 .. image:: images/2_git_repository.png
 	:align: center
+	
+
+Having the "application remote repository" allows you to push code using the Wakanda Studio,  or a  Git Command Line, or any IDE that supports Git Smart HTTP.
 
 Using Wakanda Studio
 ====================
+Create a local git repository and commit your changes by adding all the folders you want to source control. After that, define your remote repository and deploy whenever you are ready to your cloud. 
 
-Once you have opened your solution in Wakanda Studio, click on the Cloud button in the toolbar and select the ``Publish`` menu item.
+Create your local git repository
+********************************
+From the solution explorer on Wakanda Studio, open the Git Panel and click on ``Create Git Repository``.
 
-.. image:: images/studio_update_menu.png
+.. image:: images/create_remote_repo.png
 	:align: center
 
-Fill in your Wakanda Cloud login information and click  ``Login``. If you want Wakanda Studio to remember your credentials, check the ``Remember me`` checkbox.
+Add your folders and commit your changes
+****************************************
+Add changes to your stage and commit:
 
-.. image:: images/studio_login_dialog.png
+.. image:: images/commit_changes.png
 	:align: center
 
-.. note::
+Add your Remote Repository
+**************************
+Retrieve your remote repository URL from your Wakanda Cloud Administration Console:
 
-    If you check the ``Remember me`` checkbox, your credentials will be saved as plain text in the Wakanda Cloud's preferences.
+.. image:: images/3_git_repository.png
+	:align: center
+
+Open the remote repositories panel and setup your remote repository settings:
+
+.. image:: images/remote_repositories_panel.png
+	:align: center
 	
-If this is your first deployment, you will need to associate a domain name to your application.
+The Username and Password for your Remote Git repository are your Cloud Console Credentials.
 
-.. image:: images/21_publish_window.png
+.. image:: images/git_remote_setup.png
 	:align: center
 
+Deploy
+******
+Click on "Deploy" from the Studio toolbar:
+
+.. image:: images/deploy.png
+	:align: center
+	
+Select your Remote Git Repository and setup you Remote Git Branch to "master":
+
+.. image:: images/deploy_2.png
+	:align: center
+	
 If the operation was successful, you will receive details about the update. Otherwise, you will receive a message explaining any errors that occurred.
 
-.. image:: images/studio_published_dialog.png
+.. image:: images/deploy_3.png
+	:align: center
 
 Using the command line
 ======================
@@ -104,3 +137,20 @@ Push your application to the remote repository by using the following command ::
     If your local repository is using a branch name other than ``master``, you must use the following command to push your application to the remote repository ::
 
     $ git push https://[my-application-name].us-git.wak-apps.com [local-branch-name]:master
+    
+*********************************
+Clone From your Cloud Application
+*********************************
+
+Using Wakanda Studio
+====================
+Open The Git Panel and select your Remote Git Repository, then click on "Pull":
+
+.. image:: images/pull.png
+	:align: center
+	
+Using the command line
+======================
+Clone your application from your Cloud remote repository by using the following command ::
+
+$ git clone https://[my-application-name].us-git.wak-apps.com
