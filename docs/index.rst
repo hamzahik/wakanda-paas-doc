@@ -3,9 +3,8 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    getting_started
    application_dashboard
-   cloud_extension
    faq
