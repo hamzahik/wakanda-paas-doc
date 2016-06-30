@@ -6,10 +6,12 @@ Getting Started
 Creating your first application
 *******************************
 
-Once you have created an account in the Wakanda Cloud Console (https://console.wakanda.io), connect to the dashboard, click on the ``New Application`` button to open the application creation wizard.
+Once you have created an account in the `Wakanda Cloud Console`_, connect to the dashboard, click on the ``New Application`` button to open the application creation wizard.
 
 .. image:: images/noapps.png
 	:align: center
+	
+.. _`Wakanda Cloud Console`: https://console.wakanda.io/
 	
 Start by choosing an application type from the suggestions. In our example, we will be creating a free application. To proceed, click on the ``Free application`` button.
 
@@ -74,14 +76,14 @@ Using Wakanda Studio
 Create a local git repository and commit your changes by adding all the folders you want to source control. After that, define your remote repository and deploy whenever you are ready to your cloud. 
 
 Create your local git repository
-********************************
+--------------------------------
 From the solution explorer on Wakanda Studio, open the Git Panel and click on ``Create Git Repository``.
 
 .. image:: images/create_remote_repo.png
 	:align: center
 
 Add your folders and commit your changes
-****************************************
+----------------------------------------
 Add changes to your stage and commit:
 
 .. image:: images/commit_changes.png
@@ -90,7 +92,7 @@ Add changes to your stage and commit:
 At your first commit, we recommend you to add both the solution and the project folder(s). Also, please  pay attention to the ``STAGED CHANGES`` area, these are the files you will be committing when you click the Commit button
 
 Add your Remote Repository to the Wakanda Studio
-************************************************
+------------------------------------------------
 Retrieve your remote repository URL from your Wakanda Cloud Administration Console:
 
 .. image:: images/3_git_repository.png
@@ -107,7 +109,7 @@ The Username and Password for your Remote Git repository are your Cloud Console 
 	:align: center
 
 Deploy
-******
+------
 Click on "Deploy" from the Studio toolbar:
 
 .. image:: images/deploy.png
