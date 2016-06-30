@@ -61,10 +61,6 @@ Publishing your code the first time is the same as updating an already deployed 
 Application remote repository
 =============================
 
-.. image:: images/2_git_repository.png
-	:align: center
-	
-	
 It is an unique URL that points to your cloud git repository.  The URL information is available in the app’s git repository section.
 
 .. image:: images/2_git_repository.png
@@ -90,9 +86,11 @@ Add changes to your stage and commit:
 
 .. image:: images/commit_changes.png
 	:align: center
+	
+At your first commit, we recommend you to add both the solution and the project folder(s). Also, please  pay attention to the ``STAGED CHANGES`` area, these are the files you will be committing when you click the Commit button
 
-Add your Remote Repository
-**************************
+Add your Remote Repository to the Wakanda Studio
+************************************************
 Retrieve your remote repository URL from your Wakanda Cloud Administration Console:
 
 .. image:: images/3_git_repository.png
